@@ -1,31 +1,33 @@
 {
-  "name": "calculator-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Newton-School/calculator-api.git"
-  },
-  "author": "UA",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Newton-School/calculator-api/issues"
-  },
-  "homepage": "https://github.com/Newton-School/calculator-api#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "chai-http": "^4.3.0",
-    "dotenv": "^8.2.0",
-    "mocha": "^8.1.1",
-    "node-serialize": "0.0.4"
-  }
+    "name": "calculator-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon src/index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Newton-School/calculator-api.git"
+    },
+    "author": "UA",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Newton-School/calculator-api/issues"
+    },
+    "homepage": "https://github.com/Newton-School/calculator-api#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "dotenv": "^8.2.0",
+        "mocha": "^8.1.1",
+        "node-serialize": "0.0.4",
+        "nodemon": "^2.0.4"
+    }
 }
